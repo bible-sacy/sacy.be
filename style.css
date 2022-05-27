@@ -1,0 +1,50 @@
+#topdiv {
+    text-align: center;
+    margin: auto;
+}
+
+#android_app_link, #android_app_source_link {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    border: black 3px solid;
+    padding: 1em;
+    margin: 1em;
+    width: 6em;
+    max-width: 100%
+}
+
+@media (min-width: 800px) {
+    h2 {
+      width: 8em;
+    }
+}
+
+@media (min-width: 1000px) {
+    h2 {
+      width: 10em;
+    }
+}
+
+@media (min-width: 1200px) {
+    h2 {
+      width: 12em;
+    }
+}
+
+@media (min-width: 1800px) {
+    h2 {
+      width: 14em;
+    }
+}
+
+h2 > img {
+    max-height: 25em;
+    max-width: 95%;
+}
+
+#topdiv > a {
+    text-decoration: none;
+}
