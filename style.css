@@ -10,33 +10,41 @@
 h2 {
     display: inline-block;
     border: black 3px solid;
-    padding: 1em;
-    margin: 1em;
+    padding: 0.2em;
+    margin: 0.2em;
     width: 6em;
     max-width: 100%
 }
 
 @media (min-width: 800px) {
     h2 {
-      width: 8em;
+        margin: 0.3em;
+        padding: 0.3em;
+        width: 8em;
     }
 }
 
 @media (min-width: 1000px) {
     h2 {
-      width: 10em;
+        margin: 0.5em;
+        padding: 0.5em;
+        width: 10em;
     }
 }
 
 @media (min-width: 1200px) {
     h2 {
-      width: 12em;
+        margin: 0.8em;
+        padding: 0.8em;
+        width: 11em;
     }
 }
 
 @media (min-width: 1800px) {
     h2 {
-      width: 14em;
+        margin: 1em;
+        padding: 1em;
+        width: 12em;
     }
 }
 
